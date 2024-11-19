@@ -13,6 +13,9 @@ students = sorted (students)
 students_grades={}
 
 students_grades[students[0]] = list_1[0]
+students_grades[students[0]] = list_1[1]
+students_grades[students[0]] = list_1[2]
+students_grades[students[0]] = list_1[3]
+students_grades[students[0]] = list_1[4]
 
 print(students_grades)
-print(students[0],list_1[0],students[1],list_1[1],students[2],list_1[2],students[3],list_1[3],students[4],list_1[4],)
