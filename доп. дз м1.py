@@ -10,5 +10,9 @@ list_1.append(sum(grades[4])/len(grades[4]))
 print(list_1)
 
 students = sorted (students)
-print(students)
+students_grades={}
+
+students_grades[students[0]] = list_1[0]
+
+print(students_grades)
 print(students[0],list_1[0],students[1],list_1[1],students[2],list_1[2],students[3],list_1[3],students[4],list_1[4],)
