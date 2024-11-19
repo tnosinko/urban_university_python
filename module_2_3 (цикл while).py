@@ -8,6 +8,6 @@ while index < len(my_list):
             print('число', index + i)
 
         if my_list[index] == 0:
-            (index + i)
+            index + i
             continue
         print(my_list[index])
