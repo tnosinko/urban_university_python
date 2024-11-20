@@ -13,6 +13,12 @@ for i in range(len(numbers)):
              if n % a == 0:
                  is_primes = False
                  break
-         print(i, end='')
+         if is_primes == True:
+             primes.append(n)
+else:
+     not_primes.append(n)
+     print(primes)
+     print(not_primes)
+
 
 
