@@ -4,10 +4,12 @@ i=1
 while index < len(my_list):
         if my_list[index] < 0:
             break
+
         if my_list[index] > 0:
-            print('число', index + i)
+             print(my_list[index])
+        index = index + 1
 
         if my_list[index] == 0:
-            index + i
-            continue
+            index = index + 1
+        continue
         print(my_list[index])
